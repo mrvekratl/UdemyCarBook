@@ -10,3 +10,15 @@ C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Doma
 C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\refint\UdemyCarBook.Domain.dll
 C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.pdb
 C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\ref\UdemyCarBook.Domain.dll
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\bin\Debug\net8.0\UdemyCarBook.Domain.deps.json
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\bin\Debug\net8.0\UdemyCarBook.Domain.dll
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\bin\Debug\net8.0\UdemyCarBook.Domain.pdb
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.AssemblyInfoInputs.cache
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.AssemblyInfo.cs
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.sourcelink.json
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.dll
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\refint\UdemyCarBook.Domain.dll
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.pdb
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Core\UdemyCarBook.Domain\obj\Debug\net8.0\ref\UdemyCarBook.Domain.dll

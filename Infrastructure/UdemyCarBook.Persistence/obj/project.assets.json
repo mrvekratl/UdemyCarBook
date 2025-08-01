@@ -4047,11 +4047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj",
       "projectName": "UdemyCarBook.Persistence",
-      "projectPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj",
+      "projectPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj",
       "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4069,11 +4069,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Application\\UdemyCarBook.Application.csproj": {
-              "projectPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Application\\UdemyCarBook.Application.csproj"
+            "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Application\\UdemyCarBook.Application.csproj": {
+              "projectPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Application\\UdemyCarBook.Application.csproj"
             },
-            "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Domain\\UdemyCarBook.Domain.csproj": {
-              "projectPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Domain\\UdemyCarBook.Domain.csproj"
+            "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Domain\\UdemyCarBook.Domain.csproj": {
+              "projectPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Domain\\UdemyCarBook.Domain.csproj"
             }
           }
         }

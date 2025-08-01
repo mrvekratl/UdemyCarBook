@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vcfMU5FoNwg=",
+  "dgSpecHash": "rJvH2Y7d6+U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Monster\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

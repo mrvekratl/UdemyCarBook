@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DdSLw39mfbc=",
+  "dgSpecHash": "UOq99UGFNl4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Monster\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
