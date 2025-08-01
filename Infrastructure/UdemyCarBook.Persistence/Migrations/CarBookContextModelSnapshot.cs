@@ -44,6 +44,31 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.ToTable("Abouts");
                 });
 
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Banner", b =>
+                {
+                    b.Property<int>("BannerID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BannerID"));
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("VideoDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("VideoUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("BannerID");
+
+                    b.ToTable("Banners");
+                });
+
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Brand", b =>
                 {
                     b.Property<int>("BrandID")
@@ -172,7 +197,23 @@ namespace UdemyCarBook.Persistence.Migrations
 
                     b.HasIndex("PricingID");
 
-                    b.ToTable("CarPricing");
+                    b.ToTable("CarPricings");
+                });
+
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Category", b =>
+                {
+                    b.Property<int>("CategoryID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryID"));
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CategoryID");
+
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Contact", b =>
