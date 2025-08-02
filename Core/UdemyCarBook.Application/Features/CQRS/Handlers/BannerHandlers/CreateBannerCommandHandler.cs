@@ -12,6 +12,7 @@ namespace UdemyCarBook.Application.Features.CQRS.Handlers.BannerHandlers
     public class CreateBannerCommandHandler
     {
         private readonly IRepository<Banner> _repository;
+
         public CreateBannerCommandHandler(IRepository<Banner> repository)
         {
             _repository = repository;
@@ -20,8 +21,8 @@ namespace UdemyCarBook.Application.Features.CQRS.Handlers.BannerHandlers
         {
             await _repository.CreateAsync(new Banner
             {
-                Description = command.Description,
                 Title = command.Title,
+                Description = command.Description,
                 VideoDescription = command.VideoDescription,
                 VideoUrl = command.VideoUrl
             });

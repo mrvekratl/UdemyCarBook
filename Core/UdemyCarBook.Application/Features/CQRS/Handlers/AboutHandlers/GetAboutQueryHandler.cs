@@ -16,7 +16,7 @@ namespace UdemyCarBook.Application.Features.CQRS.Handlers.AboutHandlers
         {
             _repository = repository;
         }
-        public async Task<List<GetAboutQueryResult>> Handle()
+        public async Task<List<GetAboutQueryResult>> Handle() //Handle CQRS'de metod işlemleri için kullanılan isimdir.
         {
             var values = await _repository.GetAllAsync();
             return values.Select(x => new GetAboutQueryResult

@@ -12,6 +12,7 @@ namespace UdemyCarBook.Application.Features.CQRS.Handlers.BannerHandlers
     public class RemoveBannerCommandHandler
     {
         private readonly IRepository<Banner> _repository;
+
         public RemoveBannerCommandHandler(IRepository<Banner> repository)
         {
             _repository = repository;

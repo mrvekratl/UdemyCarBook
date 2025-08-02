@@ -13,6 +13,7 @@ namespace UdemyCarBook.Application.Features.CQRS.Handlers.BannerHandlers
     public class GetBannerByIdQueryHandler
     {
         private readonly IRepository<Banner> _repository;
+
         public GetBannerByIdQueryHandler(IRepository<Banner> repository)
         {
             _repository = repository;
@@ -23,8 +24,8 @@ namespace UdemyCarBook.Application.Features.CQRS.Handlers.BannerHandlers
             return new GetBannerByIdQueryResult
             {
                 BannerID = values.BannerID,
-                Description = values.Description,
                 Title = values.Title,
+                Description = values.Description,
                 VideoDescription = values.VideoDescription,
                 VideoUrl = values.VideoUrl
             };
