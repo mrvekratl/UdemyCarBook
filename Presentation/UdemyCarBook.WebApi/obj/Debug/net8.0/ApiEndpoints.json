@@ -306,6 +306,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CarsController",
+    "Method": "GetLast5CarsWithBrandQueryHandler",
+    "RelativePath": "api/Cars/GetLast5CarsWithBrand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UdemyCarBook.WebApi.Controllers.CategoriesController",
     "Method": "CategoryList",
     "RelativePath": "api/Categories",
@@ -885,6 +895,80 @@
     "ContainingType": "UdemyCarBook.WebApi.Controllers.SocialMediasController",
     "Method": "GetSocialMedia",
     "RelativePath": "api/SocialMedias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.TestimonialsController",
+    "Method": "TestimonialList",
+    "RelativePath": "api/Testimonials",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.TestimonialsController",
+    "Method": "CreateTestimonial",
+    "RelativePath": "api/Testimonials",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "UdemyCarBook.Application.Features.Mediator.Commands.TestimonialCommands.CreateTestimonialCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.TestimonialsController",
+    "Method": "RemoveTestimonial",
+    "RelativePath": "api/Testimonials",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.TestimonialsController",
+    "Method": "UpdateTestimonial",
+    "RelativePath": "api/Testimonials",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "UdemyCarBook.Application.Features.Mediator.Commands.TestimonialCommands.UpdateTestimonialCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.TestimonialsController",
+    "Method": "GetTestimonial",
+    "RelativePath": "api/Testimonials/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
