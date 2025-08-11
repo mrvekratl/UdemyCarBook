@@ -11,7 +11,6 @@ namespace UdemyCarBook.WebApi.Controllers
     public class BlogsController : ControllerBase
     {
         private readonly IMediator _mediator;
-
         public BlogsController(IMediator mediator)
         {
             _mediator = mediator;
@@ -32,30 +31,39 @@ namespace UdemyCarBook.WebApi.Controllers
         public async Task<IActionResult> CreateBlog(CreateBlogCommand command)
         {
             await _mediator.Send(command);
-            return Ok("Blog Başarıyla Eklendi.");
+            return Ok("Blog başarıyla eklendi");
         }
         [HttpDelete]
         public async Task<IActionResult> RemoveBlog(int id)
         {
             await _mediator.Send(new RemoveBlogCommand(id));
-            return Ok("Blog Başarıyla Silindi.");
+            return Ok("Blog başarıyla silindi");
         }
         [HttpPut]
         public async Task<IActionResult> UpdateBlog(UpdateBlogCommand command)
         {
             await _mediator.Send(command);
-            return Ok("Blog Başarıyla Güncellendi.");
+            return Ok("Blog başarıyla güncellendi");
         }
-        [HttpGet("GetLast3BlogsWithAuthorsList")]
-        public async Task<IActionResult> GetLast3BlogsWithAuthorsList()
+
+        [HttpGet("GetLast3BlogsWitAuthorsList")]
+        public async Task<IActionResult> GetLast3BlogsWitAuthorsList()
         {
             var values = await _mediator.Send(new GetLast3BlogsWithAuthorsQuery());
             return Ok(values);
         }
+
         [HttpGet("GetAllBlogsWithAuthorList")]
         public async Task<IActionResult> GetAllBlogsWithAuthorList()
         {
             var values = await _mediator.Send(new GetAllBlogsWithAuthorQuery());
+            return Ok(values);
+        }
+
+        [HttpGet("GetBlogByAuthorId")]
+        public async Task<IActionResult> GetBlogByAuthorId(int id)
+        {
+            var values = await _mediator.Send(new GetBlogByAuthorIdQuery(id));
             return Ok(values);
         }
     }
