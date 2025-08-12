@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\frontends\\udemycarbook.webui\\areas\\admin\\views\\admincategory\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|solutionrelative:frontends\\udemycarbook.webui\\areas\\admin\\views\\admincategory\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\frontends\\udemycarbook.webui\\areas\\admin\\controllers\\admincategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|solutionrelative:frontends\\udemycarbook.webui\\areas\\admin\\controllers\\admincategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\presentation\\udemycarbook.webapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|solutionrelative:presentation\\udemycarbook.webapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdateCategory.cshtml",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Areas\\Admin\\Views\\AdminCategory\\UpdateCategory.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\UdemyCarBook.WebUI\\Areas\\Admin\\Views\\AdminCategory\\UpdateCategory.cshtml",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Areas\\Admin\\Views\\AdminCategory\\UpdateCategory.cshtml",
-              "RelativeToolTip": "Frontends\\UdemyCarBook.WebUI\\Areas\\Admin\\Views\\AdminCategory\\UpdateCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-11T12:04:44.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminCategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Areas\\Admin\\Controllers\\AdminCategoryController.cs",
-              "RelativeDocumentMoniker": "Frontends\\UdemyCarBook.WebUI\\Areas\\Admin\\Controllers\\AdminCategoryController.cs",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Areas\\Admin\\Controllers\\AdminCategoryController.cs",
-              "RelativeToolTip": "Frontends\\UdemyCarBook.WebUI\\Areas\\Admin\\Controllers\\AdminCategoryController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEMAAAAtAAAAAAAAAA==",
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\UdemyCarBook.WebApi\\Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "Presentation\\UdemyCarBook.WebApi\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAQwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T12:02:24.494Z",
+              "WhenOpened": "2025-08-12T14:35:43.365Z",
               "EditorCaption": ""
             }
           ]
