@@ -1,4 +1,5 @@
-﻿@model UdemyCarBook.Dto.LocationDtos.ResultLocationDto
+﻿@model ResultLocationDto
+
 @{
     ViewData["Title"] = "Index";
     Layout = null;
@@ -102,17 +103,17 @@
 
     @await Component.InvokeAsync("_ServiceComponentPartial")
 
-     @await Component.InvokeAsync("_BecomeADriverComponentPartial")
+    @await Component.InvokeAsync("_BecomeADriverComponentPartial")
 
     @await Component.InvokeAsync("_TestimonialComponantPartial")
 
     @await Component.InvokeAsync("_GetLast3BlogsWithAuthorListComponentPartial")
 
-     @await Component.InvokeAsync("_DefaultStatisticsComponentPartial") 
+    @await Component.InvokeAsync("_DefaultStatisticsComponentPartial")
 
     @await Component.InvokeAsync("_FooterUILayoutComponentPartial")
 
-    @await Component.InvokeAsync("_ScriptUILayoutComponentPartial") 
+    @await Component.InvokeAsync("_ScriptUILayoutComponentPartial")
 
 </body>
 </html>

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\presentation\\udemycarbook.webapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|solutionrelative:presentation\\udemycarbook.webapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6EF100D-9A0A-48DC-8DD3-D95026B87DAE}|Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\infrastructure\\udemycarbook.persistence\\repositories\\carpricingrepositories\\carpricingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EF100D-9A0A-48DC-8DD3-D95026B87DAE}|Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj|solutionrelative:infrastructure\\udemycarbook.persistence\\repositories\\carpricingrepositories\\carpricingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\presentation\\udemycarbook.webapi\\controllers\\carpricingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|solutionrelative:presentation\\udemycarbook.webapi\\controllers\\carpricingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StatisticsController.cs",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Controllers\\StatisticsController.cs",
-              "RelativeDocumentMoniker": "Presentation\\UdemyCarBook.WebApi\\Controllers\\StatisticsController.cs",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Controllers\\StatisticsController.cs",
-              "RelativeToolTip": "Presentation\\UdemyCarBook.WebApi\\Controllers\\StatisticsController.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAQwIMAAAAAAAAAAAAAAA==",
+              "Title": "CarPricingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\Repositories\\CarPricingRepositories\\CarPricingRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\UdemyCarBook.Persistence\\Repositories\\CarPricingRepositories\\CarPricingRepository.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\Repositories\\CarPricingRepositories\\CarPricingRepository.cs",
+              "RelativeToolTip": "Infrastructure\\UdemyCarBook.Persistence\\Repositories\\CarPricingRepositories\\CarPricingRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T14:35:43.365Z",
+              "WhenOpened": "2025-08-14T14:06:16.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarPricingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Controllers\\CarPricingsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\UdemyCarBook.WebApi\\Controllers\\CarPricingsController.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Controllers\\CarPricingsController.cs",
+              "RelativeToolTip": "Presentation\\UdemyCarBook.WebApi\\Controllers\\CarPricingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T14:02:20.669Z",
               "EditorCaption": ""
             }
           ]

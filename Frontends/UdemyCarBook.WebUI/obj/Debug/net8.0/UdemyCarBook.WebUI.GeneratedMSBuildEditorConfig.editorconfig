@@ -238,6 +238,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/CarPricing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyUHJpY2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/Car/CarDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXENhckRldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/Car/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -256,6 +264,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/RentACarList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudEFDYXJMaXN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/Reservation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/Service/Index.cshtml]
@@ -344,6 +360,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/Shared/Components/_NavbarUILayoutComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX05hdmJhclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/Shared/Components/_RentACarFilterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1JlbnRBQ2FyRmlsdGVyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Monster/Desktop/Github/UdemyCarBook/UdemyCarBook/UdemyCarBook/Frontends/UdemyCarBook.WebUI/Views/Shared/Components/_ScriptUILayoutComponentPartial/Default.cshtml]

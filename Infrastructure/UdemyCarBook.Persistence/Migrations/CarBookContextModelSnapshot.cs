@@ -143,6 +143,38 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasKey("BrandID");
 
                     b.ToTable("Brands");
+
+                    b.HasData(
+                        new
+                        {
+                            BrandID = 1,
+                            Name = "Volkswagen"
+                        },
+                        new
+                        {
+                            BrandID = 2,
+                            Name = "BMW"
+                        },
+                        new
+                        {
+                            BrandID = 3,
+                            Name = "Mercedes"
+                        },
+                        new
+                        {
+                            BrandID = 4,
+                            Name = "Renault"
+                        },
+                        new
+                        {
+                            BrandID = 5,
+                            Name = "Toyota"
+                        },
+                        new
+                        {
+                            BrandID = 6,
+                            Name = "Hyundai"
+                        });
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Car", b =>
@@ -185,6 +217,248 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasIndex("BrandID");
 
                     b.ToTable("Cars");
+
+                    b.HasData(
+                        new
+                        {
+                            CarID = 1,
+                            BrandID = 1,
+                            CoverImageUrl = "/images/polo.jpg",
+                            Fuel = "Benzin",
+                            Km = 35000,
+                            Luggage = (byte)2,
+                            Model = "Polo",
+                            Seat = (byte)5,
+                            Transmission = "Manuel"
+                        },
+                        new
+                        {
+                            CarID = 2,
+                            BrandID = 1,
+                            CoverImageUrl = "/images/golf.jpg",
+                            Fuel = "Dizel",
+                            Km = 42000,
+                            Luggage = (byte)3,
+                            Model = "Golf",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 3,
+                            BrandID = 2,
+                            CoverImageUrl = "/images/bmw3.jpg",
+                            Fuel = "Benzin",
+                            Km = 28000,
+                            Luggage = (byte)4,
+                            Model = "3 Serisi",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 4,
+                            BrandID = 2,
+                            CoverImageUrl = "/images/bmw5.jpg",
+                            Fuel = "Dizel",
+                            Km = 50000,
+                            Luggage = (byte)4,
+                            Model = "5 Serisi",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 5,
+                            BrandID = 3,
+                            CoverImageUrl = "/images/c200.jpg",
+                            Fuel = "Benzin",
+                            Km = 31000,
+                            Luggage = (byte)4,
+                            Model = "C200",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 6,
+                            BrandID = 3,
+                            CoverImageUrl = "/images/e200.jpg",
+                            Fuel = "Dizel",
+                            Km = 45000,
+                            Luggage = (byte)4,
+                            Model = "E200",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 7,
+                            BrandID = 4,
+                            CoverImageUrl = "/images/clio.jpg",
+                            Fuel = "Benzin",
+                            Km = 29000,
+                            Luggage = (byte)2,
+                            Model = "Clio",
+                            Seat = (byte)5,
+                            Transmission = "Manuel"
+                        },
+                        new
+                        {
+                            CarID = 8,
+                            BrandID = 4,
+                            CoverImageUrl = "/images/megane.jpg",
+                            Fuel = "Dizel",
+                            Km = 37000,
+                            Luggage = (byte)3,
+                            Model = "Megane",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 9,
+                            BrandID = 5,
+                            CoverImageUrl = "/images/corolla.jpg",
+                            Fuel = "Benzin",
+                            Km = 33000,
+                            Luggage = (byte)3,
+                            Model = "Corolla",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 10,
+                            BrandID = 5,
+                            CoverImageUrl = "/images/yaris.jpg",
+                            Fuel = "Hibrit",
+                            Km = 25000,
+                            Luggage = (byte)2,
+                            Model = "Yaris",
+                            Seat = (byte)5,
+                            Transmission = "Manuel"
+                        },
+                        new
+                        {
+                            CarID = 11,
+                            BrandID = 6,
+                            CoverImageUrl = "/images/i20.jpg",
+                            Fuel = "Benzin",
+                            Km = 21000,
+                            Luggage = (byte)2,
+                            Model = "i20",
+                            Seat = (byte)5,
+                            Transmission = "Manuel"
+                        },
+                        new
+                        {
+                            CarID = 12,
+                            BrandID = 6,
+                            CoverImageUrl = "/images/i30.jpg",
+                            Fuel = "Dizel",
+                            Km = 34000,
+                            Luggage = (byte)3,
+                            Model = "i30",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 13,
+                            BrandID = 1,
+                            CoverImageUrl = "/images/passat.jpg",
+                            Fuel = "Dizel",
+                            Km = 48000,
+                            Luggage = (byte)4,
+                            Model = "Passat",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 14,
+                            BrandID = 2,
+                            CoverImageUrl = "/images/x1.jpg",
+                            Fuel = "Benzin",
+                            Km = 39000,
+                            Luggage = (byte)4,
+                            Model = "X1",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 15,
+                            BrandID = 3,
+                            CoverImageUrl = "/images/gla200.jpg",
+                            Fuel = "Benzin",
+                            Km = 27000,
+                            Luggage = (byte)3,
+                            Model = "GLA 200",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 16,
+                            BrandID = 4,
+                            CoverImageUrl = "/images/symbol.jpg",
+                            Fuel = "Benzin",
+                            Km = 45000,
+                            Luggage = (byte)2,
+                            Model = "Symbol",
+                            Seat = (byte)5,
+                            Transmission = "Manuel"
+                        },
+                        new
+                        {
+                            CarID = 17,
+                            BrandID = 5,
+                            CoverImageUrl = "/images/camry.jpg",
+                            Fuel = "Hibrit",
+                            Km = 37000,
+                            Luggage = (byte)4,
+                            Model = "Camry",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 18,
+                            BrandID = 6,
+                            CoverImageUrl = "/images/tucson.jpg",
+                            Fuel = "Dizel",
+                            Km = 32000,
+                            Luggage = (byte)4,
+                            Model = "Tucson",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 19,
+                            BrandID = 1,
+                            CoverImageUrl = "/images/troc.jpg",
+                            Fuel = "Benzin",
+                            Km = 22000,
+                            Luggage = (byte)3,
+                            Model = "T-Roc",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        },
+                        new
+                        {
+                            CarID = 20,
+                            BrandID = 2,
+                            CoverImageUrl = "/images/x5.jpg",
+                            Fuel = "Dizel",
+                            Km = 55000,
+                            Luggage = (byte)5,
+                            Model = "X5",
+                            Seat = (byte)5,
+                            Transmission = "Otomatik"
+                        });
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.CarDescription", b =>
@@ -337,6 +611,31 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.ToTable("Contacts");
                 });
 
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Customer", b =>
+                {
+                    b.Property<int>("CustomerID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerID"));
+
+                    b.Property<string>("CustomerMail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CustomerSurname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CustomerID");
+
+                    b.ToTable("Customers");
+                });
+
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Feature", b =>
                 {
                     b.Property<int>("FeatureID")
@@ -392,6 +691,58 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasKey("LocationID");
 
                     b.ToTable("Locations");
+
+                    b.HasData(
+                        new
+                        {
+                            LocationID = 1,
+                            Name = "İstanbul - Sabiha Gökçen Havalimanı"
+                        },
+                        new
+                        {
+                            LocationID = 2,
+                            Name = "İstanbul - İstanbul Havalimanı"
+                        },
+                        new
+                        {
+                            LocationID = 3,
+                            Name = "Ankara - Esenboğa Havalimanı"
+                        },
+                        new
+                        {
+                            LocationID = 4,
+                            Name = "İzmir - Adnan Menderes Havalimanı"
+                        },
+                        new
+                        {
+                            LocationID = 5,
+                            Name = "Antalya - Antalya Havalimanı"
+                        },
+                        new
+                        {
+                            LocationID = 6,
+                            Name = "Bursa - Yenişehir Havalimanı"
+                        },
+                        new
+                        {
+                            LocationID = 7,
+                            Name = "Adana - Şakirpaşa Havalimanı"
+                        },
+                        new
+                        {
+                            LocationID = 8,
+                            Name = "Trabzon - Trabzon Havalimanı"
+                        },
+                        new
+                        {
+                            LocationID = 9,
+                            Name = "Gaziantep - Oğuzeli Havalimanı"
+                        },
+                        new
+                        {
+                            LocationID = 10,
+                            Name = "Dalaman - Dalaman Havalimanı"
+                        });
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Pricing", b =>
@@ -408,6 +759,141 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasKey("PricingID");
 
                     b.ToTable("Pricings");
+                });
+
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.RentACar", b =>
+                {
+                    b.Property<int>("RentACarId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RentACarId"));
+
+                    b.Property<bool>("Available")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("CarID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LocationID")
+                        .HasColumnType("int");
+
+                    b.HasKey("RentACarId");
+
+                    b.HasIndex("CarID");
+
+                    b.HasIndex("LocationID");
+
+                    b.ToTable("RentACars");
+                });
+
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.RentACarProcess", b =>
+                {
+                    b.Property<int>("RentACarProcessID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RentACarProcessID"));
+
+                    b.Property<int>("CarID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CustomerID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DropOffDate")
+                        .HasColumnType("Date");
+
+                    b.Property<string>("DropOffDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DropOffLocation")
+                        .HasColumnType("int");
+
+                    b.Property<TimeSpan>("DropOffTime")
+                        .HasColumnType("time");
+
+                    b.Property<DateTime>("PickUpDate")
+                        .HasColumnType("Date");
+
+                    b.Property<string>("PickUpDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PickUpLocation")
+                        .HasColumnType("int");
+
+                    b.Property<TimeSpan>("PickUpTime")
+                        .HasColumnType("time");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("RentACarProcessID");
+
+                    b.HasIndex("CarID");
+
+                    b.HasIndex("CustomerID");
+
+                    b.ToTable("RentACarProcesses");
+                });
+
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Reservation", b =>
+                {
+                    b.Property<int>("ReservationID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReservationID"));
+
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CarID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DriverLicenseYear")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("DropOffLocationID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PickUpLocationID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ReservationID");
+
+                    b.HasIndex("CarID");
+
+                    b.HasIndex("DropOffLocationID");
+
+                    b.HasIndex("PickUpLocationID");
+
+                    b.ToTable("Reservations");
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Service", b =>
@@ -591,6 +1077,67 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.Navigation("Blog");
                 });
 
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.RentACar", b =>
+                {
+                    b.HasOne("UdemyCarBook.Domain.Entities.Car", "Car")
+                        .WithMany("RentACars")
+                        .HasForeignKey("CarID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("UdemyCarBook.Domain.Entities.Location", "Location")
+                        .WithMany("RentACars")
+                        .HasForeignKey("LocationID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Car");
+
+                    b.Navigation("Location");
+                });
+
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.RentACarProcess", b =>
+                {
+                    b.HasOne("UdemyCarBook.Domain.Entities.Car", "Car")
+                        .WithMany()
+                        .HasForeignKey("CarID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("UdemyCarBook.Domain.Entities.Customer", "Customer")
+                        .WithMany("RentACarProcesses")
+                        .HasForeignKey("CustomerID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Car");
+
+                    b.Navigation("Customer");
+                });
+
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Reservation", b =>
+                {
+                    b.HasOne("UdemyCarBook.Domain.Entities.Car", "Car")
+                        .WithMany("Reservations")
+                        .HasForeignKey("CarID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("UdemyCarBook.Domain.Entities.Location", "DropOffLocation")
+                        .WithMany("DropOffReservation")
+                        .HasForeignKey("DropOffLocationID");
+
+                    b.HasOne("UdemyCarBook.Domain.Entities.Location", "PickUpLocation")
+                        .WithMany("PickUpReservation")
+                        .HasForeignKey("PickUpLocationID");
+
+                    b.Navigation("Car");
+
+                    b.Navigation("DropOffLocation");
+
+                    b.Navigation("PickUpLocation");
+                });
+
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.TagCloud", b =>
                 {
                     b.HasOne("UdemyCarBook.Domain.Entities.Blog", "Blog")
@@ -626,6 +1173,10 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.Navigation("CarFeatures");
 
                     b.Navigation("CarPricings");
+
+                    b.Navigation("RentACars");
+
+                    b.Navigation("Reservations");
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Category", b =>
@@ -633,9 +1184,23 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.Navigation("Blogs");
                 });
 
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Customer", b =>
+                {
+                    b.Navigation("RentACarProcesses");
+                });
+
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Feature", b =>
                 {
                     b.Navigation("CarFeatures");
+                });
+
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Location", b =>
+                {
+                    b.Navigation("DropOffReservation");
+
+                    b.Navigation("PickUpReservation");
+
+                    b.Navigation("RentACars");
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Pricing", b =>
