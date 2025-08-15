@@ -25,6 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyCarBook.Dto", "Fronten
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{F9982555-8D71-4AEB-BED1-9B61948A108F}"
 	ProjectSection(SolutionItems) = preProject
+		AlertScripts.txt = AlertScripts.txt
 		StatisticsList.txt = StatisticsList.txt
 	EndProjectSection
 EndProject

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oycWVwxxabrtQaZE5RUxgZKLNsZKBs+g6612sHzli/8=",
+  "Hash": "KbmZI2w+25wNptHjiL6xfK3/XEFdU2ug/gU+hUDtiaQ=",
   "Source": "UdemyCarBook.WebUI",
   "BasePath": "_content/UdemyCarBook.WebUI",
   "Mode": "Default",
@@ -15405,6 +15405,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\carbook-master\\services.html"
+    },
+    {
+      "Identity": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\chart.js",
+      "SourceId": "UdemyCarBook.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\",
+      "BasePath": "_content/UdemyCarBook.WebUI",
+      "RelativePath": "chart.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\chart.js"
     },
     {
       "Identity": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\css\\site.css",

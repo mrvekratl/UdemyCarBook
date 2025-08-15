@@ -13,21 +13,23 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.FooterAddressHandl
 {
 	public class UpdateFooterAddressCommandHandler : IRequestHandler<UpdateFooterAddressCommand>
 	{
-		private readonly IRepository<FooterAddress> _repository;
+        private readonly IRepository<FooterAddress> _repository;
 
-		public UpdateFooterAddressCommandHandler(IRepository<FooterAddress> repository)
-		{
-			_repository = repository;
-		}
+        public UpdateFooterAddressCommandHandler(IRepository<FooterAddress> repository)
+        {
+            _repository = repository;
+        }
 
-		public async Task Handle(UpdateFooterAddressCommand request, CancellationToken cancellationToken)
-		{
-			var values= await _repository.GetByIdAsync(request.FooterAddressID);
-			values.Phone=request.Phone;
-			values.Description=request.Description;
-			values.Address=request.Address;
-			values.Email = request.Email;
-			await _repository.UpdateAsync(values);
-		}
-	}
+        public async Task Handle(UpdateFooterAddressCommand request, CancellationToken cancellationToken)
+        {
+            var values = await _repository.GetByIdAsync(request.FooterAddressID);
+            if (values == null)
+                throw new KeyNotFoundException($"FooterAddress {request.FooterAddressID} bulunamadı.");
+            values.Phone = request.Phone;
+            values.Address = request.Address;
+            values.Description = request.Description;
+            values.Email = request.Email;
+            await _repository.UpdateAsync(values);
+        }
+    }
 }

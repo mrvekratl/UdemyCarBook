@@ -1,3 +1,5 @@
+using FluentValidation.AspNetCore;
+using System.Reflection;
 using UdemyCarBook.Application.Features.CQRS.Handlers.AboutHandlers;
 using UdemyCarBook.Application.Features.CQRS.Handlers.BannerHandlers;
 using UdemyCarBook.Application.Features.CQRS.Handlers.BrandHandlers;
@@ -7,9 +9,12 @@ using UdemyCarBook.Application.Features.CQRS.Handlers.ContactHandlers;
 using UdemyCarBook.Application.Features.RepositoryPattern;
 using UdemyCarBook.Application.Interfaces;
 using UdemyCarBook.Application.Interfaces.BlogInterfaces;
+using UdemyCarBook.Application.Interfaces.CarDescriptionInterfaces;
+using UdemyCarBook.Application.Interfaces.CarFeatureInterfaces;
 using UdemyCarBook.Application.Interfaces.CarInterfaces;
 using UdemyCarBook.Application.Interfaces.CarPricingInterfaces;
 using UdemyCarBook.Application.Interfaces.RentACarInterfaces;
+using UdemyCarBook.Application.Interfaces.ReviewInterfaces;
 using UdemyCarBook.Application.Interfaces.StatisticsInterfaces;
 using UdemyCarBook.Application.Interfaces.TagCloudInterfaces;
 using UdemyCarBook.Application.Services;
@@ -17,10 +22,13 @@ using UdemyCarBook.Domain.Entities;
 using UdemyCarBook.Persistence.Context;
 using UdemyCarBook.Persistence.Repositories;
 using UdemyCarBook.Persistence.Repositories.BlogRepositories;
+using UdemyCarBook.Persistence.Repositories.CarDescriptionRepositories;
+using UdemyCarBook.Persistence.Repositories.CarFeatureRepositories;
 using UdemyCarBook.Persistence.Repositories.CarPricingRepositories;
 using UdemyCarBook.Persistence.Repositories.CarRepositories;
 using UdemyCarBook.Persistence.Repositories.CommentRepositories;
 using UdemyCarBook.Persistence.Repositories.RentACarRepositories;
+using UdemyCarBook.Persistence.Repositories.ReviewRepositories;
 using UdemyCarBook.Persistence.Repositories.StatisticsRepositories;
 using UdemyCarBook.Persistence.Repositories.TagCloudRepositories;
 
@@ -38,6 +46,9 @@ builder.Services.AddScoped(typeof(ICarPricingRepository), typeof(CarPricingRepos
 builder.Services.AddScoped(typeof(ITagCloudRepository), typeof(TagCloudRepository));
 builder.Services.AddScoped(typeof(IRentACarRepository), typeof(RentACarRepository));
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(CommentRepository<>));
+builder.Services.AddScoped(typeof(ICarFeatureRepository), typeof(CarFeatureRepository));
+builder.Services.AddScoped(typeof(ICarDescriptionRepository), typeof(CarDescriptionRepository));
+builder.Services.AddScoped(typeof(IReviewRepository), typeof(ReviewRepository));
 
 
 builder.Services.AddScoped<GetAboutQueryHandler>();
@@ -80,7 +91,10 @@ builder.Services.AddScoped<RemoveContactCommandHandler>();
 
 builder.Services.AddApplicationService(builder.Configuration);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddFluentValidation(x =>
+{
+    x.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

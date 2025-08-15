@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Humanizer;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;
 using UdemyCarBook.Dto.FooterAddressDtos;
@@ -80,8 +81,9 @@ namespace UdemyCarBook.WebUI.Areas.Admin.Controllers
 
         [HttpPost]
         [Route("UpdateFooterAddress/{id}")]
-        public async Task<IActionResult> UpdateFooterAddress(UpdateFooterAddressDto updateFooterAddressDto)
+        public async Task<IActionResult> UpdateFooterAddress(int id, UpdateFooterAddressDto updateFooterAddressDto)
         {
+            updateFooterAddressDto.FooterAddressID = id;
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(updateFooterAddressDto);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");

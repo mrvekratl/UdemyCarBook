@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using UdemyCarBook.Application.Features.Mediator.Commands.CommentCommands;
 using UdemyCarBook.Application.Features.RepositoryPattern;
 using UdemyCarBook.Domain.Entities;
 
@@ -68,6 +69,12 @@ namespace UdemyCarBook.WebApi.Controllers
             return Ok(value);
         }
 
-       
+        [HttpPost("CreateCommentWithMediator")]
+        public async Task<IActionResult> CreateCommentWithMediator(CreateCommentCommand command)
+        {
+            await _mediator.Send(command);
+            return Ok("Yorum başarıyla eklendi");
+        }
+
     }
 }

@@ -3237,6 +3237,10 @@
       "PackagePath": "staticwebassets\\carbook-master\\services.html"
     },
     {
+      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\chart.js",
+      "PackagePath": "staticwebassets\\chart.js"
+    },
+    {
       "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

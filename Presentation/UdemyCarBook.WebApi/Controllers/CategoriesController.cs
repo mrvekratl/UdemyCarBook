@@ -52,7 +52,7 @@ namespace UdemyCarBook.WebApi.Controllers
 		public async Task<IActionResult> UpdateCategory(UpdateCategoryCommand command)
 		{
 			await _updateCategoryCommandHandler.Handle(command);
-			return Ok("Kategori Bilgisi Silindi.");
+			return Ok("Kategori Bilgisi Güncellendi.");
 		}
 	}
 }
