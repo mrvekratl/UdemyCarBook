@@ -302,3 +302,4 @@ C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Presentat
 C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Monster\Desktop\Github\UdemyCarBook\UdemyCarBook\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

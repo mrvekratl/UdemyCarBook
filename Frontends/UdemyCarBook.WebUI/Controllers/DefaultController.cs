@@ -17,8 +17,11 @@ namespace UdemyCarBook.WebUI.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-           
-                var client = _httpClientFactory.CreateClient();       
+            var token = User.Claims.FirstOrDefault(x => x.Type == "carbooktoken")?.Value;
+            if (token != null)
+            {
+                var client = _httpClientFactory.CreateClient();
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
                 var responseMessage = await client.GetAsync("https://localhost:7080/api/Locations");
 
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
@@ -30,7 +33,7 @@ namespace UdemyCarBook.WebUI.Controllers
                                                     Value = x.LocationID.ToString()
                                                 }).ToList();
                 ViewBag.v = values2;
-            
+            }
             return View();
         }
 
@@ -44,6 +47,5 @@ namespace UdemyCarBook.WebUI.Controllers
             TempData["locationID"] = locationID;
             return RedirectToAction("Index", "RentACarList");
         }
-
     }
 }

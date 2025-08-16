@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\presentation\\udemycarbook.webapi\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|solutionrelative:presentation\\udemycarbook.webapi\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F83B1B4-F7B4-401C-BAE8-F2A217F88E7E}|Core\\UdemyCarBook.Application\\UdemyCarBook.Application.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\core\\udemycarbook.application\\validators\\reviewvalidators\\createreviewvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F83B1B4-F7B4-401C-BAE8-F2A217F88E7E}|Core\\UdemyCarBook.Application\\UdemyCarBook.Application.csproj|solutionrelative:core\\udemycarbook.application\\validators\\reviewvalidators\\createreviewvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\presentation\\udemycarbook.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15FEF6EE-9B42-4B54-AECD-09F65D53E432}|Presentation\\UdemyCarBook.WebApi\\UdemyCarBook.WebApi.csproj|solutionrelative:presentation\\udemycarbook.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\frontends\\udemycarbook.webui\\views\\signalrcar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|solutionrelative:frontends\\udemycarbook.webui\\views\\signalrcar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\UdemyCarBook.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Program.cs",
-              "RelativeToolTip": "Presentation\\UdemyCarBook.WebApi\\Program.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T17:05:40.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateReviewValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Application\\Validators\\ReviewValidators\\CreateReviewValidator.cs",
-              "RelativeDocumentMoniker": "Core\\UdemyCarBook.Application\\Validators\\ReviewValidators\\CreateReviewValidator.cs",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Core\\UdemyCarBook.Application\\Validators\\ReviewValidators\\CreateReviewValidator.cs",
-              "RelativeToolTip": "Core\\UdemyCarBook.Application\\Validators\\ReviewValidators\\CreateReviewValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T17:02:21.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReviewsController.cs",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Controllers\\ReviewsController.cs",
-              "RelativeDocumentMoniker": "Presentation\\UdemyCarBook.WebApi\\Controllers\\ReviewsController.cs",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Presentation\\UdemyCarBook.WebApi\\Controllers\\ReviewsController.cs",
-              "RelativeToolTip": "Presentation\\UdemyCarBook.WebApi\\Controllers\\ReviewsController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T16:42:55.504Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Views\\SignalRCar\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\UdemyCarBook.WebUI\\Views\\SignalRCar\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Views\\SignalRCar\\Index.cshtml",
+              "RelativeToolTip": "Frontends\\UdemyCarBook.WebUI\\Views\\SignalRCar\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-16T11:10:30.459Z",
               "EditorCaption": ""
             }
           ]
