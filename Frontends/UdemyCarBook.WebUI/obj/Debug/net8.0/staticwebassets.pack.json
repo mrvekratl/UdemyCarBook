@@ -1533,6 +1533,10 @@
       "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\bg-register.jpg"
     },
     {
+      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\contact-for-401-error-help (1).png",
+      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\contact-for-401-error-help (1).png"
+    },
+    {
       "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\favicon.ico"
     },
@@ -1597,44 +1601,8 @@
       "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\media\\sm-7.jpg"
     },
     {
-      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-1.jpg",
-      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-10.jpg",
-      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-10.jpg"
-    },
-    {
       "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-2.jpg",
       "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-3.jpg",
-      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-4.jpg",
-      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-5.jpg",
-      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-6.jpg",
-      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-7.jpg",
-      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-8.jpg",
-      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-8.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\images\\users\\avatar-9.jpg",
-      "PackagePath": "staticwebassets\\Admin\\vertical\\assets\\images\\users\\avatar-9.jpg"
     },
     {
       "Id": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\assets\\js\\bootstrap.bundle.min.js",

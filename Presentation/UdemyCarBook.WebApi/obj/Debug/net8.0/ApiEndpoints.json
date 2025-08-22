@@ -74,6 +74,90 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.AppRolesController",
+    "Method": "AppRoleList",
+    "RelativePath": "api/AppRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.AppUsersController",
+    "Method": "AppUserList",
+    "RelativePath": "api/AppUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.AppUsersController",
+    "Method": "CreateAppUser",
+    "RelativePath": "api/AppUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "UdemyCarBook.Application.Features.Mediator.Commands.AppUserCommands.CreateAppUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.AppUsersController",
+    "Method": "RemoveAppUser",
+    "RelativePath": "api/AppUsers",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.AppUsersController",
+    "Method": "UpdateAppUser",
+    "RelativePath": "api/AppUsers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "UdemyCarBook.Application.Features.Mediator.Commands.AppUserCommands.UpdateAppUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.AppUsersController",
+    "Method": "GetAppUser",
+    "RelativePath": "api/AppUsers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UdemyCarBook.WebApi.Controllers.AuthorsController",
     "Method": "AuthorList",
     "RelativePath": "api/Authors",
@@ -793,6 +877,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CommentsController",
+    "Method": "GetAllCommentList",
+    "RelativePath": "api/Comments/GetAllWithBlogTitle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

@@ -1,0 +1,48 @@
+﻿@model List<GetAllCommentListWithBlogTitleDto>
+@{
+    ViewData["Title"] = "CommentList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Bloglara Yapılan Yorumlar Listesi</h4>
+                        <p class="card-subtitle mb-4">
+                            Bloglara ait kullanıcı yorumlarına ulaşabilirsiniz.
+                        </p>
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Kullanıcı Adı</th>
+                                        <th>Yorum İçeriği</th>
+                                        <th>Blog Adı</th>
+                                        <th>Oluşturulma Tarihi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr>
+                                            <td>@count</td>
+                                            <td>@item.Name</td>
+                                            <td>@item.Description</td>
+                                            <td>@item.BlogTitle</td>
+                                            <td>@item.CreatedDate</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

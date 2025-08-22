@@ -36,6 +36,9 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using UdemyCarBook.Application.Tools;
 using UdemyCarBook.WebApi.Hubs;
+using UdemyCarBook.Application.Interfaces.CommentInterfaces;
+using UdemyCarBook.Persistence.Repositories.AppUserRepositories;
+using UdemyCarBook.Application.Interfaces.AppUserInterfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();
@@ -77,10 +80,12 @@ builder.Services.AddScoped(typeof(IBlogRepository), typeof(BlogRepository));
 builder.Services.AddScoped(typeof(ICarPricingRepository), typeof(CarPricingRepository));
 builder.Services.AddScoped(typeof(ITagCloudRepository), typeof(TagCloudRepository));
 builder.Services.AddScoped(typeof(IRentACarRepository), typeof(RentACarRepository));
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(CommentRepository<>));
+//builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(CommentRepository<>));
 builder.Services.AddScoped(typeof(ICarFeatureRepository), typeof(CarFeatureRepository));
 builder.Services.AddScoped(typeof(ICarDescriptionRepository), typeof(CarDescriptionRepository));
 builder.Services.AddScoped(typeof(IReviewRepository), typeof(ReviewRepository));
+builder.Services.AddScoped(typeof(ICommentRepository), typeof(CommentRepository));
+builder.Services.AddScoped(typeof(IAppUserRepository), typeof(AppUserRepository));
 
 
 builder.Services.AddScoped<GetAboutQueryHandler>();

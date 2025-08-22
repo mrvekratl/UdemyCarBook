@@ -203,32 +203,52 @@ namespace UdemyCarBook.Persistence.Migrations
                         new
                         {
                             BrandID = 1,
-                            Name = "Volkswagen"
-                        },
-                        new
-                        {
-                            BrandID = 2,
                             Name = "BMW"
                         },
                         new
                         {
+                            BrandID = 2,
+                            Name = "Mercedes-Benz"
+                        },
+                        new
+                        {
                             BrandID = 3,
-                            Name = "Mercedes"
+                            Name = "Audi"
                         },
                         new
                         {
                             BrandID = 4,
-                            Name = "Renault"
+                            Name = "Volkswagen"
                         },
                         new
                         {
                             BrandID = 5,
-                            Name = "Toyota"
+                            Name = "Volvo"
                         },
                         new
                         {
                             BrandID = 6,
+                            Name = "Ford"
+                        },
+                        new
+                        {
+                            BrandID = 7,
+                            Name = "Toyota"
+                        },
+                        new
+                        {
+                            BrandID = 8,
                             Name = "Hyundai"
+                        },
+                        new
+                        {
+                            BrandID = 9,
+                            Name = "Peugeot"
+                        },
+                        new
+                        {
+                            BrandID = 10,
+                            Name = "Renault"
                         });
                 });
 
@@ -277,242 +297,132 @@ namespace UdemyCarBook.Persistence.Migrations
                         new
                         {
                             CarID = 1,
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?bmw,interior",
                             BrandID = 1,
-                            CoverImageUrl = "/images/polo.jpg",
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?bmw,car",
                             Fuel = "Benzin",
                             Km = 35000,
-                            Luggage = (byte)2,
-                            Model = "Polo",
+                            Luggage = (byte)4,
+                            Model = "BMW 320i",
                             Seat = (byte)5,
-                            Transmission = "Manuel"
+                            Transmission = "Otomatik"
                         },
                         new
                         {
                             CarID = 2,
-                            BrandID = 1,
-                            CoverImageUrl = "/images/golf.jpg",
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?mercedes,interior",
+                            BrandID = 2,
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?mercedes,car",
                             Fuel = "Dizel",
-                            Km = 42000,
-                            Luggage = (byte)3,
-                            Model = "Golf",
+                            Km = 28000,
+                            Luggage = (byte)4,
+                            Model = "Mercedes-Benz C200",
                             Seat = (byte)5,
                             Transmission = "Otomatik"
                         },
                         new
                         {
                             CarID = 3,
-                            BrandID = 2,
-                            CoverImageUrl = "/images/bmw3.jpg",
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?audi,interior",
+                            BrandID = 3,
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?audi,car",
                             Fuel = "Benzin",
-                            Km = 28000,
+                            Km = 30000,
                             Luggage = (byte)4,
-                            Model = "3 Serisi",
+                            Model = "Audi A4",
                             Seat = (byte)5,
                             Transmission = "Otomatik"
                         },
                         new
                         {
                             CarID = 4,
-                            BrandID = 2,
-                            CoverImageUrl = "/images/bmw5.jpg",
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?volkswagen,interior",
+                            BrandID = 4,
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?volkswagen,car",
                             Fuel = "Dizel",
-                            Km = 50000,
+                            Km = 40000,
                             Luggage = (byte)4,
-                            Model = "5 Serisi",
+                            Model = "Volkswagen Passat",
                             Seat = (byte)5,
                             Transmission = "Otomatik"
                         },
                         new
                         {
                             CarID = 5,
-                            BrandID = 3,
-                            CoverImageUrl = "/images/c200.jpg",
-                            Fuel = "Benzin",
-                            Km = 31000,
-                            Luggage = (byte)4,
-                            Model = "C200",
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?volvo,interior",
+                            BrandID = 5,
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?volvo,car",
+                            Fuel = "Dizel",
+                            Km = 25000,
+                            Luggage = (byte)5,
+                            Model = "Volvo XC60",
                             Seat = (byte)5,
                             Transmission = "Otomatik"
                         },
                         new
                         {
                             CarID = 6,
-                            BrandID = 3,
-                            CoverImageUrl = "/images/e200.jpg",
-                            Fuel = "Dizel",
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?ford,interior",
+                            BrandID = 6,
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?ford,car",
+                            Fuel = "Benzin",
                             Km = 45000,
                             Luggage = (byte)4,
-                            Model = "E200",
+                            Model = "Ford Focus",
                             Seat = (byte)5,
-                            Transmission = "Otomatik"
+                            Transmission = "Manuel"
                         },
                         new
                         {
                             CarID = 7,
-                            BrandID = 4,
-                            CoverImageUrl = "/images/clio.jpg",
-                            Fuel = "Benzin",
-                            Km = 29000,
-                            Luggage = (byte)2,
-                            Model = "Clio",
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?toyota,interior",
+                            BrandID = 7,
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?toyota,car",
+                            Fuel = "Hybrid",
+                            Km = 50000,
+                            Luggage = (byte)4,
+                            Model = "Toyota Corolla",
                             Seat = (byte)5,
-                            Transmission = "Manuel"
+                            Transmission = "Otomatik"
                         },
                         new
                         {
                             CarID = 8,
-                            BrandID = 4,
-                            CoverImageUrl = "/images/megane.jpg",
-                            Fuel = "Dizel",
-                            Km = 37000,
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?hyundai,interior",
+                            BrandID = 8,
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?hyundai,car",
+                            Fuel = "Benzin",
+                            Km = 52000,
                             Luggage = (byte)3,
-                            Model = "Megane",
+                            Model = "Hyundai i20",
                             Seat = (byte)5,
-                            Transmission = "Otomatik"
+                            Transmission = "Manuel"
                         },
                         new
                         {
                             CarID = 9,
-                            BrandID = 5,
-                            CoverImageUrl = "/images/corolla.jpg",
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?peugeot,interior",
+                            BrandID = 9,
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?peugeot,car",
                             Fuel = "Benzin",
-                            Km = 33000,
+                            Km = 48000,
                             Luggage = (byte)3,
-                            Model = "Corolla",
+                            Model = "Peugeot 208",
                             Seat = (byte)5,
-                            Transmission = "Otomatik"
+                            Transmission = "Manuel"
                         },
                         new
                         {
                             CarID = 10,
-                            BrandID = 5,
-                            CoverImageUrl = "/images/yaris.jpg",
-                            Fuel = "Hibrit",
-                            Km = 25000,
-                            Luggage = (byte)2,
-                            Model = "Yaris",
-                            Seat = (byte)5,
-                            Transmission = "Manuel"
-                        },
-                        new
-                        {
-                            CarID = 11,
-                            BrandID = 6,
-                            CoverImageUrl = "/images/i20.jpg",
+                            BigImageUrl = "https://source.unsplash.com/1200x800/?renault,interior",
+                            BrandID = 10,
+                            CoverImageUrl = "https://source.unsplash.com/800x600/?renault,car",
                             Fuel = "Benzin",
-                            Km = 21000,
-                            Luggage = (byte)2,
-                            Model = "i20",
-                            Seat = (byte)5,
-                            Transmission = "Manuel"
-                        },
-                        new
-                        {
-                            CarID = 12,
-                            BrandID = 6,
-                            CoverImageUrl = "/images/i30.jpg",
-                            Fuel = "Dizel",
-                            Km = 34000,
-                            Luggage = (byte)3,
-                            Model = "i30",
-                            Seat = (byte)5,
-                            Transmission = "Otomatik"
-                        },
-                        new
-                        {
-                            CarID = 13,
-                            BrandID = 1,
-                            CoverImageUrl = "/images/passat.jpg",
-                            Fuel = "Dizel",
-                            Km = 48000,
-                            Luggage = (byte)4,
-                            Model = "Passat",
-                            Seat = (byte)5,
-                            Transmission = "Otomatik"
-                        },
-                        new
-                        {
-                            CarID = 14,
-                            BrandID = 2,
-                            CoverImageUrl = "/images/x1.jpg",
-                            Fuel = "Benzin",
-                            Km = 39000,
-                            Luggage = (byte)4,
-                            Model = "X1",
-                            Seat = (byte)5,
-                            Transmission = "Otomatik"
-                        },
-                        new
-                        {
-                            CarID = 15,
-                            BrandID = 3,
-                            CoverImageUrl = "/images/gla200.jpg",
-                            Fuel = "Benzin",
-                            Km = 27000,
-                            Luggage = (byte)3,
-                            Model = "GLA 200",
-                            Seat = (byte)5,
-                            Transmission = "Otomatik"
-                        },
-                        new
-                        {
-                            CarID = 16,
-                            BrandID = 4,
-                            CoverImageUrl = "/images/symbol.jpg",
-                            Fuel = "Benzin",
-                            Km = 45000,
-                            Luggage = (byte)2,
-                            Model = "Symbol",
-                            Seat = (byte)5,
-                            Transmission = "Manuel"
-                        },
-                        new
-                        {
-                            CarID = 17,
-                            BrandID = 5,
-                            CoverImageUrl = "/images/camry.jpg",
-                            Fuel = "Hibrit",
-                            Km = 37000,
-                            Luggage = (byte)4,
-                            Model = "Camry",
-                            Seat = (byte)5,
-                            Transmission = "Otomatik"
-                        },
-                        new
-                        {
-                            CarID = 18,
-                            BrandID = 6,
-                            CoverImageUrl = "/images/tucson.jpg",
-                            Fuel = "Dizel",
-                            Km = 32000,
-                            Luggage = (byte)4,
-                            Model = "Tucson",
-                            Seat = (byte)5,
-                            Transmission = "Otomatik"
-                        },
-                        new
-                        {
-                            CarID = 19,
-                            BrandID = 1,
-                            CoverImageUrl = "/images/troc.jpg",
-                            Fuel = "Benzin",
-                            Km = 22000,
-                            Luggage = (byte)3,
-                            Model = "T-Roc",
-                            Seat = (byte)5,
-                            Transmission = "Otomatik"
-                        },
-                        new
-                        {
-                            CarID = 20,
-                            BrandID = 2,
-                            CoverImageUrl = "/images/x5.jpg",
-                            Fuel = "Dizel",
                             Km = 55000,
-                            Luggage = (byte)5,
-                            Model = "X5",
+                            Luggage = (byte)3,
+                            Model = "Renault Clio",
                             Seat = (byte)5,
-                            Transmission = "Otomatik"
+                            Transmission = "Manuel"
                         });
                 });
 
@@ -535,6 +445,68 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasIndex("CarID");
 
                     b.ToTable("CarDescriptions");
+
+                    b.HasData(
+                        new
+                        {
+                            CarDescriptionID = 1,
+                            CarID = 1,
+                            Details = "BMW 320i, modern tasarımı ve güçlü motoru ile konforlu sürüş sağlar."
+                        },
+                        new
+                        {
+                            CarDescriptionID = 2,
+                            CarID = 2,
+                            Details = "Mercedes C200, lüks ve güvenliği bir arada sunar."
+                        },
+                        new
+                        {
+                            CarDescriptionID = 3,
+                            CarID = 3,
+                            Details = "Audi A4, sportif tasarımı ve ileri teknolojisiyle öne çıkar."
+                        },
+                        new
+                        {
+                            CarDescriptionID = 4,
+                            CarID = 4,
+                            Details = "Volkswagen Passat, geniş iç hacmi ve ekonomik sürüşüyle aileler için ideal."
+                        },
+                        new
+                        {
+                            CarDescriptionID = 5,
+                            CarID = 5,
+                            Details = "Volvo XC60, güvenlik özellikleriyle ön plana çıkan SUV modelidir."
+                        },
+                        new
+                        {
+                            CarDescriptionID = 6,
+                            CarID = 6,
+                            Details = "Ford Focus, şehir içi kullanım için pratik ve ekonomik bir tercihtir."
+                        },
+                        new
+                        {
+                            CarDescriptionID = 7,
+                            CarID = 7,
+                            Details = "Toyota Corolla, dayanıklılığı ve düşük yakıt tüketimi ile bilinir."
+                        },
+                        new
+                        {
+                            CarDescriptionID = 8,
+                            CarID = 8,
+                            Details = "Hyundai i20, kompakt yapısı ve konforu ile dikkat çeker."
+                        },
+                        new
+                        {
+                            CarDescriptionID = 9,
+                            CarID = 9,
+                            Details = "Peugeot 208, şık tasarımı ve pratik iç mekan düzeni ile öne çıkar."
+                        },
+                        new
+                        {
+                            CarDescriptionID = 10,
+                            CarID = 10,
+                            Details = "Renault Clio, ekonomik yakıt tüketimi ve şehir içi rahatlığıyla tercih edilir."
+                        });
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.CarFeature", b =>
@@ -561,6 +533,302 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasIndex("FeatureID");
 
                     b.ToTable("CarFeatures");
+
+                    b.HasData(
+                        new
+                        {
+                            CarFeatureID = 1,
+                            Available = true,
+                            CarID = 1,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 2,
+                            Available = true,
+                            CarID = 1,
+                            FeatureID = 2
+                        },
+                        new
+                        {
+                            CarFeatureID = 3,
+                            Available = true,
+                            CarID = 1,
+                            FeatureID = 3
+                        },
+                        new
+                        {
+                            CarFeatureID = 4,
+                            Available = true,
+                            CarID = 1,
+                            FeatureID = 4
+                        },
+                        new
+                        {
+                            CarFeatureID = 5,
+                            Available = true,
+                            CarID = 1,
+                            FeatureID = 5
+                        },
+                        new
+                        {
+                            CarFeatureID = 6,
+                            Available = true,
+                            CarID = 2,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 7,
+                            Available = true,
+                            CarID = 2,
+                            FeatureID = 2
+                        },
+                        new
+                        {
+                            CarFeatureID = 8,
+                            Available = true,
+                            CarID = 2,
+                            FeatureID = 4
+                        },
+                        new
+                        {
+                            CarFeatureID = 9,
+                            Available = true,
+                            CarID = 2,
+                            FeatureID = 5
+                        },
+                        new
+                        {
+                            CarFeatureID = 10,
+                            Available = true,
+                            CarID = 2,
+                            FeatureID = 6
+                        },
+                        new
+                        {
+                            CarFeatureID = 11,
+                            Available = true,
+                            CarID = 3,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 12,
+                            Available = true,
+                            CarID = 3,
+                            FeatureID = 3
+                        },
+                        new
+                        {
+                            CarFeatureID = 13,
+                            Available = true,
+                            CarID = 3,
+                            FeatureID = 5
+                        },
+                        new
+                        {
+                            CarFeatureID = 14,
+                            Available = true,
+                            CarID = 3,
+                            FeatureID = 6
+                        },
+                        new
+                        {
+                            CarFeatureID = 15,
+                            Available = true,
+                            CarID = 3,
+                            FeatureID = 7
+                        },
+                        new
+                        {
+                            CarFeatureID = 16,
+                            Available = true,
+                            CarID = 4,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 17,
+                            Available = true,
+                            CarID = 4,
+                            FeatureID = 2
+                        },
+                        new
+                        {
+                            CarFeatureID = 18,
+                            Available = true,
+                            CarID = 4,
+                            FeatureID = 4
+                        },
+                        new
+                        {
+                            CarFeatureID = 19,
+                            Available = true,
+                            CarID = 4,
+                            FeatureID = 5
+                        },
+                        new
+                        {
+                            CarFeatureID = 20,
+                            Available = true,
+                            CarID = 4,
+                            FeatureID = 7
+                        },
+                        new
+                        {
+                            CarFeatureID = 21,
+                            Available = true,
+                            CarID = 5,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 22,
+                            Available = true,
+                            CarID = 5,
+                            FeatureID = 2
+                        },
+                        new
+                        {
+                            CarFeatureID = 23,
+                            Available = true,
+                            CarID = 5,
+                            FeatureID = 3
+                        },
+                        new
+                        {
+                            CarFeatureID = 24,
+                            Available = true,
+                            CarID = 5,
+                            FeatureID = 4
+                        },
+                        new
+                        {
+                            CarFeatureID = 25,
+                            Available = true,
+                            CarID = 5,
+                            FeatureID = 5
+                        },
+                        new
+                        {
+                            CarFeatureID = 26,
+                            Available = true,
+                            CarID = 6,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 27,
+                            Available = true,
+                            CarID = 6,
+                            FeatureID = 2
+                        },
+                        new
+                        {
+                            CarFeatureID = 28,
+                            Available = true,
+                            CarID = 6,
+                            FeatureID = 5
+                        },
+                        new
+                        {
+                            CarFeatureID = 29,
+                            Available = true,
+                            CarID = 6,
+                            FeatureID = 6
+                        },
+                        new
+                        {
+                            CarFeatureID = 30,
+                            Available = true,
+                            CarID = 7,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 31,
+                            Available = true,
+                            CarID = 7,
+                            FeatureID = 2
+                        },
+                        new
+                        {
+                            CarFeatureID = 32,
+                            Available = true,
+                            CarID = 7,
+                            FeatureID = 4
+                        },
+                        new
+                        {
+                            CarFeatureID = 33,
+                            Available = true,
+                            CarID = 7,
+                            FeatureID = 5
+                        },
+                        new
+                        {
+                            CarFeatureID = 34,
+                            Available = true,
+                            CarID = 8,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 35,
+                            Available = true,
+                            CarID = 8,
+                            FeatureID = 2
+                        },
+                        new
+                        {
+                            CarFeatureID = 36,
+                            Available = true,
+                            CarID = 8,
+                            FeatureID = 5
+                        },
+                        new
+                        {
+                            CarFeatureID = 37,
+                            Available = true,
+                            CarID = 9,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 38,
+                            Available = true,
+                            CarID = 9,
+                            FeatureID = 2
+                        },
+                        new
+                        {
+                            CarFeatureID = 39,
+                            Available = true,
+                            CarID = 9,
+                            FeatureID = 3
+                        },
+                        new
+                        {
+                            CarFeatureID = 40,
+                            Available = true,
+                            CarID = 10,
+                            FeatureID = 1
+                        },
+                        new
+                        {
+                            CarFeatureID = 41,
+                            Available = true,
+                            CarID = 10,
+                            FeatureID = 2
+                        },
+                        new
+                        {
+                            CarFeatureID = 42,
+                            Available = true,
+                            CarID = 10,
+                            FeatureID = 4
+                        });
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.CarPricing", b =>
@@ -587,6 +855,218 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasIndex("PricingID");
 
                     b.ToTable("CarPricings");
+
+                    b.HasData(
+                        new
+                        {
+                            CarPricingID = 1,
+                            Amount = 45000m,
+                            CarID = 1,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 2,
+                            Amount = 1500m,
+                            CarID = 1,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 3,
+                            Amount = 10000m,
+                            CarID = 1,
+                            PricingID = 4
+                        },
+                        new
+                        {
+                            CarPricingID = 4,
+                            Amount = 46000m,
+                            CarID = 2,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 5,
+                            Amount = 2500m,
+                            CarID = 2,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 6,
+                            Amount = 16000m,
+                            CarID = 2,
+                            PricingID = 4
+                        },
+                        new
+                        {
+                            CarPricingID = 7,
+                            Amount = 47000m,
+                            CarID = 3,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 8,
+                            Amount = 2600m,
+                            CarID = 3,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 9,
+                            Amount = 16500m,
+                            CarID = 3,
+                            PricingID = 4
+                        },
+                        new
+                        {
+                            CarPricingID = 10,
+                            Amount = 44000m,
+                            CarID = 4,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 11,
+                            Amount = 2400m,
+                            CarID = 4,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 12,
+                            Amount = 15500m,
+                            CarID = 4,
+                            PricingID = 4
+                        },
+                        new
+                        {
+                            CarPricingID = 13,
+                            Amount = 50000m,
+                            CarID = 5,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 14,
+                            Amount = 3000m,
+                            CarID = 5,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 15,
+                            Amount = 17000m,
+                            CarID = 5,
+                            PricingID = 4
+                        },
+                        new
+                        {
+                            CarPricingID = 16,
+                            Amount = 35000m,
+                            CarID = 6,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 17,
+                            Amount = 1400m,
+                            CarID = 6,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 18,
+                            Amount = 9000m,
+                            CarID = 6,
+                            PricingID = 4
+                        },
+                        new
+                        {
+                            CarPricingID = 19,
+                            Amount = 38000m,
+                            CarID = 7,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 20,
+                            Amount = 1500m,
+                            CarID = 7,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 21,
+                            Amount = 10000m,
+                            CarID = 7,
+                            PricingID = 4
+                        },
+                        new
+                        {
+                            CarPricingID = 22,
+                            Amount = 27000m,
+                            CarID = 8,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 23,
+                            Amount = 900m,
+                            CarID = 8,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 24,
+                            Amount = 6000m,
+                            CarID = 8,
+                            PricingID = 4
+                        },
+                        new
+                        {
+                            CarPricingID = 25,
+                            Amount = 28000m,
+                            CarID = 9,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 26,
+                            Amount = 900m,
+                            CarID = 9,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 27,
+                            Amount = 6000m,
+                            CarID = 9,
+                            PricingID = 4
+                        },
+                        new
+                        {
+                            CarPricingID = 28,
+                            Amount = 25000m,
+                            CarID = 10,
+                            PricingID = 2
+                        },
+                        new
+                        {
+                            CarPricingID = 29,
+                            Amount = 850m,
+                            CarID = 10,
+                            PricingID = 3
+                        },
+                        new
+                        {
+                            CarPricingID = 30,
+                            Amount = 5500m,
+                            CarID = 10,
+                            PricingID = 4
+                        });
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Category", b =>
@@ -705,6 +1185,108 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasKey("FeatureID");
 
                     b.ToTable("Features");
+
+                    b.HasData(
+                        new
+                        {
+                            FeatureID = 1,
+                            Name = "Bluetooth"
+                        },
+                        new
+                        {
+                            FeatureID = 2,
+                            Name = "Klima"
+                        },
+                        new
+                        {
+                            FeatureID = 3,
+                            Name = "Hava Yastığı"
+                        },
+                        new
+                        {
+                            FeatureID = 4,
+                            Name = "ABS"
+                        },
+                        new
+                        {
+                            FeatureID = 5,
+                            Name = "Cruise Control"
+                        },
+                        new
+                        {
+                            FeatureID = 6,
+                            Name = "Isıtmalı Koltuk"
+                        },
+                        new
+                        {
+                            FeatureID = 7,
+                            Name = "Geri Görüş Kamerası"
+                        },
+                        new
+                        {
+                            FeatureID = 8,
+                            Name = "Park Sensörü"
+                        },
+                        new
+                        {
+                            FeatureID = 9,
+                            Name = "USB Girişi"
+                        },
+                        new
+                        {
+                            FeatureID = 10,
+                            Name = "Apple CarPlay"
+                        },
+                        new
+                        {
+                            FeatureID = 11,
+                            Name = "Android Auto"
+                        },
+                        new
+                        {
+                            FeatureID = 12,
+                            Name = "Navigasyon"
+                        },
+                        new
+                        {
+                            FeatureID = 13,
+                            Name = "Otomatik Far"
+                        },
+                        new
+                        {
+                            FeatureID = 14,
+                            Name = "Yağmur Sensörü"
+                        },
+                        new
+                        {
+                            FeatureID = 15,
+                            Name = "Panoramik Cam Tavan"
+                        },
+                        new
+                        {
+                            FeatureID = 16,
+                            Name = "Deri Koltuk"
+                        },
+                        new
+                        {
+                            FeatureID = 17,
+                            Name = "Elektrikli Cam"
+                        },
+                        new
+                        {
+                            FeatureID = 18,
+                            Name = "Otomatik Klima"
+                        },
+                        new
+                        {
+                            FeatureID = 19,
+                            Name = "Start-Stop Sistemi"
+                        },
+                        new
+                        {
+                            FeatureID = 20,
+                            Name = "Çocuk Koltuğu Bağlantısı (ISOFIX)"
+                        });
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.FooterAddress", b =>
@@ -814,6 +1396,23 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasKey("PricingID");
 
                     b.ToTable("Pricings");
+
+                    b.HasData(
+                        new
+                        {
+                            PricingID = 2,
+                            Name = "Aylık"
+                        },
+                        new
+                        {
+                            PricingID = 3,
+                            Name = "Günlük"
+                        },
+                        new
+                        {
+                            PricingID = 4,
+                            Name = "Haftalık"
+                        });
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.RentACar", b =>
@@ -985,6 +1584,208 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.HasIndex("CarID");
 
                     b.ToTable("Reviews");
+
+                    b.HasData(
+                        new
+                        {
+                            ReviewID = 1,
+                            CarID = 1,
+                            Comment = "Harika bir araç, sürüş keyfi mükemmel!",
+                            CustomerImage = "",
+                            CustomerName = "Ali",
+                            RaytingValue = 5,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8051)
+                        },
+                        new
+                        {
+                            ReviewID = 2,
+                            CarID = 1,
+                            Comment = "Konforlu ve sessiz.",
+                            CustomerImage = "",
+                            CustomerName = "Ayşe",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8063)
+                        },
+                        new
+                        {
+                            ReviewID = 3,
+                            CarID = 2,
+                            Comment = "Lüks bir sürüş, her şey çok kaliteli.",
+                            CustomerImage = "",
+                            CustomerName = "Mehmet",
+                            RaytingValue = 5,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8065)
+                        },
+                        new
+                        {
+                            ReviewID = 4,
+                            CarID = 2,
+                            Comment = "Yakıt tüketimi biraz yüksek ama konforlu.",
+                            CustomerImage = "",
+                            CustomerName = "Elif",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8066)
+                        },
+                        new
+                        {
+                            ReviewID = 5,
+                            CarID = 3,
+                            Comment = "Motor gücü çok iyi, direksiyon hassas.",
+                            CustomerImage = "",
+                            CustomerName = "Can",
+                            RaytingValue = 5,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8067)
+                        },
+                        new
+                        {
+                            ReviewID = 6,
+                            CarID = 3,
+                            Comment = "İç tasarım oldukça şık ve modern.",
+                            CustomerImage = "",
+                            CustomerName = "Zeynep",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8068)
+                        },
+                        new
+                        {
+                            ReviewID = 7,
+                            CarID = 4,
+                            Comment = "Uzun yol için ideal bir araç.",
+                            CustomerImage = "",
+                            CustomerName = "Ahmet",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8069)
+                        },
+                        new
+                        {
+                            ReviewID = 8,
+                            CarID = 4,
+                            Comment = "Yakıt tasarrufu iyi ama koltuklar biraz sert.",
+                            CustomerImage = "",
+                            CustomerName = "Fatma",
+                            RaytingValue = 3,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8071)
+                        },
+                        new
+                        {
+                            ReviewID = 9,
+                            CarID = 5,
+                            Comment = "Güvenlik özellikleri çok iyi, aile aracı olarak ideal.",
+                            CustomerImage = "",
+                            CustomerName = "Osman",
+                            RaytingValue = 5,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8072)
+                        },
+                        new
+                        {
+                            ReviewID = 10,
+                            CarID = 5,
+                            Comment = "Sessiz ve rahat bir sürüş.",
+                            CustomerImage = "",
+                            CustomerName = "Seda",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8073)
+                        },
+                        new
+                        {
+                            ReviewID = 11,
+                            CarID = 6,
+                            Comment = "Şehir içi kullanım için ideal.",
+                            CustomerImage = "",
+                            CustomerName = "Murat",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8074)
+                        },
+                        new
+                        {
+                            ReviewID = 12,
+                            CarID = 6,
+                            Comment = "Fiyat/performans oranı çok iyi.",
+                            CustomerImage = "",
+                            CustomerName = "Derya",
+                            RaytingValue = 5,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8075)
+                        },
+                        new
+                        {
+                            ReviewID = 13,
+                            CarID = 7,
+                            Comment = "Yakıt tasarrufu çok başarılı.",
+                            CustomerImage = "",
+                            CustomerName = "Emre",
+                            RaytingValue = 5,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8077)
+                        },
+                        new
+                        {
+                            ReviewID = 14,
+                            CarID = 7,
+                            Comment = "Rahat ve güvenli bir araç.",
+                            CustomerImage = "",
+                            CustomerName = "Hülya",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8078)
+                        },
+                        new
+                        {
+                            ReviewID = 15,
+                            CarID = 8,
+                            Comment = "Küçük ama kullanışlı.",
+                            CustomerImage = "",
+                            CustomerName = "Berk",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8079)
+                        },
+                        new
+                        {
+                            ReviewID = 16,
+                            CarID = 8,
+                            Comment = "Park etmesi kolay ve şehir için ideal.",
+                            CustomerImage = "",
+                            CustomerName = "Aylin",
+                            RaytingValue = 5,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8080)
+                        },
+                        new
+                        {
+                            ReviewID = 17,
+                            CarID = 9,
+                            Comment = "Tasarımı çok güzel ve modern.",
+                            CustomerImage = "",
+                            CustomerName = "Tolga",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8081)
+                        },
+                        new
+                        {
+                            ReviewID = 18,
+                            CarID = 9,
+                            Comment = "Motor performansı beklediğimden iyi.",
+                            CustomerImage = "",
+                            CustomerName = "Merve",
+                            RaytingValue = 5,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8082)
+                        },
+                        new
+                        {
+                            ReviewID = 19,
+                            CarID = 10,
+                            Comment = "Küçük aileler için uygun bir araç.",
+                            CustomerImage = "",
+                            CustomerName = "Cem",
+                            RaytingValue = 4,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8084)
+                        },
+                        new
+                        {
+                            ReviewID = 20,
+                            CarID = 10,
+                            Comment = "Fiyatı uygun ve kullanımı kolay.",
+                            CustomerImage = "",
+                            CustomerName = "Selin",
+                            RaytingValue = 5,
+                            ReviewDate = new DateTime(2025, 8, 22, 18, 36, 42, 684, DateTimeKind.Local).AddTicks(8085)
+                        });
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Service", b =>

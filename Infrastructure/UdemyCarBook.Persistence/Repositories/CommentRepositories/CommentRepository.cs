@@ -1,15 +1,17 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UdemyCarBook.Application.Features.RepositoryPattern;
+using UdemyCarBook.Application.Interfaces.CommentInterfaces;
 using UdemyCarBook.Domain.Entities;
 using UdemyCarBook.Persistence.Context;
 
 namespace UdemyCarBook.Persistence.Repositories.CommentRepositories
 {
-    public class CommentRepository<T> : IGenericRepository<Comment>
+    public class CommentRepository : ICommentRepository
     {
         private readonly CarBookContext _context;
         public CommentRepository(CarBookContext context)
@@ -60,6 +62,12 @@ namespace UdemyCarBook.Persistence.Repositories.CommentRepositories
         public int GetCountCommentByBlog(int id)
         {
             return _context.Comments.Where(x => x.BlogID == id).Count();
+        }
+        public List<Comment> GetAllWithBlog()
+        {
+            return _context.Comments
+                .Include(x => x.Blog) // Blog tablosunu Include et
+                .ToList();
         }
     }
 }

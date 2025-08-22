@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\frontends\\udemycarbook.webui\\views\\signalrcar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|solutionrelative:frontends\\udemycarbook.webui\\views\\signalrcar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\frontends\\udemycarbook.webui\\views\\car\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|solutionrelative:frontends\\udemycarbook.webui\\views\\car\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|c:\\users\\monster\\desktop\\github\\udemycarbook\\udemycarbook\\udemycarbook\\frontends\\udemycarbook.webui\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DBC924-EFF8-4C1E-9C58-77335E4C6D75}|Frontends\\UdemyCarBook.WebUI\\UdemyCarBook.WebUI.csproj|solutionrelative:frontends\\udemycarbook.webui\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Views\\SignalRCar\\Index.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\UdemyCarBook.WebUI\\Views\\SignalRCar\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Views\\SignalRCar\\Index.cshtml",
-              "RelativeToolTip": "Frontends\\UdemyCarBook.WebUI\\Views\\SignalRCar\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Views\\Car\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\UdemyCarBook.WebUI\\Views\\Car\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Views\\Car\\Index.cshtml",
+              "RelativeToolTip": "Frontends\\UdemyCarBook.WebUI\\Views\\Car\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-16T11:10:30.459Z",
+              "WhenOpened": "2025-08-22T16:02:23.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Frontends\\UdemyCarBook.WebUI\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\Github\\UdemyCarBook\\UdemyCarBook\\UdemyCarBook\\Frontends\\UdemyCarBook.WebUI\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Frontends\\UdemyCarBook.WebUI\\Controllers\\CarController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T16:02:15.323Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
@@ -47,5 +48,6 @@ namespace UdemyCarBook.WebUI.Controllers
             TempData["locationID"] = locationID;
             return RedirectToAction("Index", "RentACarList");
         }
+
     }
 }

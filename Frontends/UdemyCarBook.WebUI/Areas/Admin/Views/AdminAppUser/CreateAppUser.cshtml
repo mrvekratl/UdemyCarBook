@@ -1,0 +1,42 @@
+﻿@model CreateAppUserDto
+@{
+    ViewData["Title"] = "CreateAppUser";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Yeni Kullanıcı Bilgisi Girişi</h4>
+                        <p class="card-subtitle mb-4">Yazar alanına veri girişini aşağıdaki panelden yapabilirsiniz.</p>
+                        <form method="post">
+                            <div class="form-group">
+                                <label for="exampleInputName">Ad</label>
+                                <input type="text" class="form-control" id="exampleInputName" asp-for="Name" placeholder="Kullanıcının Adını Giriniz">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName">Soyad</label>
+                                <input type="text" class="form-control" id="exampleInputName" asp-for="Surname" placeholder="Kullanıcının Soyadını Giriniz">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName">Kullanıcı Adı</label>
+                                <input type="text" class="form-control" id="exampleInputName" asp-for="Username" placeholder="Kullanıcı Adını Giriniz">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName">Mail Adres</label>
+                                <input type="text" class="form-control" id="exampleInputName" asp-for="Email" placeholder="Mail Adresi Giriniz">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName">Şifre</label>
+                                <input type="text" class="form-control" id="exampleInputName" asp-for="Password" placeholder="Şifre Giriniz">
+                            </div>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Kullanıcıyı Kaydet</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
