@@ -4,7 +4,7 @@
 
 ---
 
-##📌 About the Project
+## 📌 About the Project
 
 CarBook is **a full-featured Car Rental System Web Application built with ASP.NET Core 8.0.**
 This project stands as a significant milestone in my backend development journey — developed through an intensive 39-hour, 314-lesson Udemy course led by [Murat Yücedağ](https://www.udemy.com/course/aspnet-core-api-8-onion-architecture-ile-bookcar-projesi/) , where I actively coded, debugged, and expanded upon the tutorial to simulate a real-world vehicle rental platform inspired by companies like **Avis Budget Group and Enterprise.**
